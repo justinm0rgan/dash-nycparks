@@ -1,5 +1,5 @@
 dash==2.9.3
-geopandas
+geopandas==0.12.2
 numpy
 pandas
 plotly
