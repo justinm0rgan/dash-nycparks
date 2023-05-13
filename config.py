@@ -1,1 +1,0 @@
-MAPBOX_API = "pk.eyJ1IjoianVzdGlubTByZ2FuIiwiYSI6ImNsMjlsbTJzbjAzdXozZHBmOTg0OWc5OHIifQ.2Pht_IaWmPeJw0qv8ypsrA"
