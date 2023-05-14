@@ -137,8 +137,6 @@ df_cdta_parks_sum = (
 # create the Dash app
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-server=app.server
-
 # create a list of cdta for the dropdown menu
 cdta_list = df_cdta_parks_sum["cdtaname"].unique()
 cdta_options = [{"label": cdta, "value": cdta} for cdta in cdta_list]
@@ -435,8 +433,3 @@ def update_indicator(hoverData, dropdown_value):
             min_range,
             max_range,
         )
-
-
-# run the app
-if __name__ == "__main__":
-    app.run_server(debug=False)
