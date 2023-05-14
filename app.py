@@ -439,4 +439,4 @@ def update_indicator(hoverData, dropdown_value):
 
 # run the app
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)
